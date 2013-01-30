@@ -1,0 +1,25 @@
+<html>
+<head> 
+<script type='text/javascript' src='exec.js'></script>
+</head>
+<body>
+ 
+<h3>JavaScript to TorqueScript Bridge Sample</h3>
+<div><input type="textbox" value = "Hello TorqueScript!"></input></div>
+<button id="SendToTorqueScriptButton">Send to TorqueScript</button> 
+ 
+<script type="text/javascript">
+    $("button:#SendToTorqueScriptButton").click (function () 
+	{
+		var arg = 'javaScriptToTorqueScript ("' + $('input:textbox').val () + '");';
+		TorqueScript.call (arg);
+    }); 
+</script>
+<script type="text/javascript">
+    function torqueScriptToJavaScript (text)
+	{
+		$('input:textbox').val (text);
+    } 
+</script>
+</body>
+</html>

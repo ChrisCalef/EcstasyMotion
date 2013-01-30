@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <style>
+    .greenBorder {} /* just borders to see it --  {border: 1px solid green;} */
+  </style>
+	<link media="all" rel="stylesheet" type="text/css" href="simple.css" />
+</head>
+<body>
+<center>
+  <div class="greenBorder" style="display: table; height: 400px; #position: relative; overflow: hidden;">
+    <div style=" #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;">
+      <div class="greenBorder" style=" #position: relative; #top: -50%">
+<table width=100% cellpadding=6><tr><td>
+<font size=7><h1>Behavior Trees</h1><p>
+Actors in Ecstasy Motion make use of Behavior Trees<br>  
+to organize their actions into a coherent framework.
+</font></td>
+<td><img src="images/zombieIdleStuck.jpg" width=600 height=300></td>
+</tr>
+<tr><td colspan=2><font size=7>
+Behavior Trees are hierarchies of nodes, where each is either a specific isolated<br>
+<font size=7 color=darkgreen><b>Action</b></font>, a <font size=7 color=darkgreen><b>Sequence</b></font> that runs a list of other nodes, or a <font size=7 color=darkgreen><b>Selector</b></font> that picks<br>
+one node from a set.  With these simple building blocks it is possible to create infinitely detailed
+AI logic for your actors. <br>
+Each node has a <font size=7 color=darkgreen><b>Condition</b></font>, and a <font size=7 color=darkgreen><b>Rule</b></font> which is executed if the Condition <br>
+is true.  Rules and Conditions are written in Torque Script.
+</font></td>
+</table>
+
+<table width=100%><tr>
+<td align=center><br><font size=6><i>The zombie's behavior is dictated by how far away from it you are.</i></font></td>
+<td align="right"><img src="RightArrow.png" width=200 height=100></td></tr></table>
+
+      </div>
+    </div>
+  </div>
+</center>
+</body>
+</html>

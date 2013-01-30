@@ -1,0 +1,43 @@
+C:/HardReality/projects/tgea_1.8.0_physx/GameExamples/Stronghold/game/scriptsAndAssets/data/interiors/constructor/plane_100x.dif
+
+
+
+Constructor Version: 1.0.3
+
+
+
+Date: 2009/02/27 11:51:28
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        8
+
+  Surfaces:      6
+
+  Null Surfaces: 0
+
+  BSP Nodes:     6
+
+
+
+  Textures From Brushes:
+
+
+
+    FLOOR_SLATE01
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

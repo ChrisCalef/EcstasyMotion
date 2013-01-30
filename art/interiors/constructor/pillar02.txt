@@ -1,0 +1,43 @@
+C:/HardReality/contract/tgea_1.7.1_AISeek_ch/GameExamples/T3D/game/scriptsAndAssets/data/interiors/constructor/pillar02.dif
+
+
+
+Constructor Version: 1.0.3
+
+
+
+Date: 2008/11/24 00:14:19
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        20
+
+  Surfaces:      8
+
+  Null Surfaces: 0
+
+  BSP Nodes:     8
+
+
+
+  Textures From Brushes:
+
+
+
+    BRICKS1
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

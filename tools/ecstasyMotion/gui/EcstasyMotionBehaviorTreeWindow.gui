@@ -1,0 +1,59 @@
+//--- OBJECT WRITE BEGIN ---
+%guiContent = new GuiWindowCtrl(EcstasyMotionBehaviorTreeWindow, EditorGuiGroup) {
+   //position = "2" SPC getWord($pref::Video::mode,1) - 230;
+   position = "100 100";
+   extent = "400 300";
+   text = "   Behavior Tree Chart";
+   resizeWidth = "1";
+   resizeHeight = "1";
+   canMove = "1";
+   canClose = "0";
+   canMinimize = "0";
+   canMaximize = "0";
+   closeCommand = "EcstasyMotionBehaviorTreeWindow.setVisible(false);";
+   edgeSnap = "1";
+   margin = "0 0 0 0";
+   padding = "0 0 0 0";
+   anchorTop = "1";
+   anchorBottom = "1";
+   anchorLeft = "1";
+   anchorRight = "1";
+   isContainer = "1";
+   profile = "GuiWindowProfile";
+   horizSizing = "windowRelative";
+   vertSizing = "windowRelative";
+   canSave = "1";
+   visible = "1";
+   tooltipprofile = "GuiToolTipProfile";
+   hovertime = "1000";
+   canSaveDynamicFields = "1";
+   canCollapse = "0";
+   canClose = "1";
+   enabled = "1";
+   onResize = 1;
+   //Docking = "Bottom";
+   
+   new GuiScrollCtrl(BehaviorTreeScrollControl) {
+      canSaveDynamicFields = "0";
+      Enabled = "1";
+      isContainer = "1";
+      Profile = "GuiScrollProfile";
+      HorizSizing = "width";
+      VertSizing = "height";
+      position = "10 20";
+      Extent = "380 275";
+      MinExtent = "8 2";
+      canSave = "1";
+      Visible = "1";
+      hovertime = "1000";
+      willFirstRespond = "1";
+      hScrollBar = "dynamic";
+      vScrollBar = "dynamic";
+      lockHorizScroll = "false";
+      lockVertScroll = "false";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+     
+   };   
+};
+//--- OBJECT WRITE END ---

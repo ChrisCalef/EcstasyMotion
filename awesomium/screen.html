@@ -1,0 +1,71 @@
+<html>
+<style type="text/css">
+html {
+overflow:hidden;
+}
+</style>
+  <head>
+    <style type='text/css'>
+      #button {
+        width:100%;
+        height:100%;
+		background-size:100%;
+		background:url(screen.jpg) no-repeat center center;
+      }
+      #button:active {
+        width:100%;
+        height:100%;
+		background-size:100%;
+		background:url(screen_down.jpg) no-repeat center center;
+      }
+      #buttonDisabled {
+        width:100%;
+        height:100%;
+		background-size:100%;
+		background:url(screen_disabled.jpg) no-repeat center center;
+		visibility:hidden;
+      }
+      #buttonDisabling {
+        width:100%;
+        height:100%;
+		background-size:100%;
+		background:url(screen_disabling.jpg) no-repeat center center;
+		visibility:hidden;
+      }
+    </style>
+	<script type='text/javascript' src='exec.js'></script>
+  </head> 
+  <body>
+	  <div id='button'></div>
+	  <div id='buttonDisabled'></div>
+	  <div id='buttonDisabling'></div>	  
+	<script type='text/javascript'>
+    function setDisabled ()
+	{
+		$('#button').insertAfter ('#buttonDisabled');
+		$('#buttonDisabling').insertAfter ('#buttonDisabled');
+		document.getElementById ('button').style.visibility = 'hidden';
+		document.getElementById ('buttonDisabling').style.visibility = 'hidden';
+		document.getElementById ('buttonDisabled').style.visibility = 'visible';		
+    }
+    </script>	  
+	<script type='text/javascript'>
+    function setDisabling ()
+	{
+		$('#button').insertAfter ('#buttonDisabling');
+		$('#buttonDisabled').insertAfter ('#buttonDisabling');
+		document.getElementById ('button').style.visibility = 'hidden';
+		document.getElementById ('buttonDisabled').style.visibility = 'hidden';
+		document.getElementById ('buttonDisabling').style.visibility = 'visible';		
+    }
+    </script>
+	<script type='text/javascript'>
+    $('#button').click(function() 
+	{
+		TorqueScript.call ("startDisableScreen ();");		
+    });
+    </script>
+	
+    </script>
+  </body>
+</html>

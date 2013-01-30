@@ -1,0 +1,43 @@
+C:/HardReality/projects/tgea_1.7.1_physx/GameExamples/Stronghold/game/scriptsAndAssets/data/interiors/constructor/wall_10_5.dif
+
+
+
+Constructor Version: 1.0.3
+
+
+
+Date: 2008/12/04 18:17:13
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        8
+
+  Surfaces:      6
+
+  Null Surfaces: 0
+
+  BSP Nodes:     6
+
+
+
+  Textures From Brushes:
+
+
+
+    BRICKS1
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+

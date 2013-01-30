@@ -1,0 +1,43 @@
+C:/HardReality/projects/tgea_1.7.1_physx/GameExamples/Stronghold/game/scriptsAndAssets/data/interiors/constructor/castle01.dif
+
+
+
+Constructor Version: 1.0.3
+
+
+
+Date: 2008/12/06 17:58:24
+
+
+Detail Level 0
+
+
+
+  Zones:         1
+
+  Points:        32
+
+  Surfaces:      17
+
+  Null Surfaces: 0
+
+  BSP Nodes:     17
+
+
+
+  Textures From Brushes:
+
+
+
+    BRICKS1
+
+
+
+  Static Meshes and Textures:
+
+
+
+    -- None --
+
+
+
